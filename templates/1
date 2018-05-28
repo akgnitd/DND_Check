@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>Welcome to DND Status on the web!</h2>
+
+<form method='GET' action='/entry/'>
+<table>
+<p>Use this form to submit a search request:</p>
+<tr><td>Number:</td><td><input name='NUMBER' type='integer' width='60'></td></tr>
+</table>
+<p>When you're ready, click this button:</p>
+<p><input value='Do it!' type='SUBMIT'></p>
+</form>
+
+{% endblock %}
