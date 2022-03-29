@@ -3,7 +3,7 @@ cryptography==3.2
 decorator==4.1.2
 Flask==1.0.2
 itsdangerous==0.24
-Jinja2==2.10
+Jinja2==2.11.3
 pyOpenSSL==17.5.0
 requests==2.20.0
 six==1.11.0
